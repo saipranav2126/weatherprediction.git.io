@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Prediction.com</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <h1>Weather Prediction</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#weather-data">Weather Data</a></li>
+                <li><a href="alerts.html">Weather Alerts</a></li>
+                <li><a href="en.html">Environmental Goals</a></li>
+                <li><a href="edu.html">Educational Content</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to the Weather Prediction Project</h2>
+        <p>Helping you make informed decisions with accurate weather data for India's top cities.</p>
+    </section>
+
+    <!-- Weather Data Section -->
+    <section id="weather-data">
+        <h2>Weather Data for Top 5 Cities</h2>
+        <div id="city-weather"></div>
+    </section>
+
+    <!-- Weather Alerts Section -->
+    <section id="alerts">
+        <h2>Weather Alerts</h2>
+        <p>Receive real-time alerts for severe weather conditions and set personalized notifications based on your location.</p>
+        <a href="alerts.html"><button class="explore-btn" onclick="exploreMore('alertsInfo')">Explore More</button></a>
+        <!-- <p id="alertsInfo" class="hidden">
+            Weather alerts keep you safe by notifying you of severe weather such as storms, heavy rainfall, and heatwaves. You can set up alerts to receive notifications directly.
+        </p> -->
+    </section>
+
+    <!-- Environmental Goals Section -->
+    <section id="goals">
+        <h2>Environmental and Sustainability Goals</h2>
+        <p>Learn about climate impacts and sustainability through weather prediction data.</p>
+        <a href="en.html"><button class="explore-btn" onclick="exploreMore('goalsInfo')">Explore More</button></a>
+        <!-- <p id="goalsInfo" class="hidden">
+            Our project aims to increase awareness of environmental impacts. With real-time data, users can make sustainable choices that reduce their environmental footprint.
+        </p> -->
+    </section>
+
+    <!-- Educational Content Section -->
+    <section id="education">
+        <h2>Educational Content</h2>
+        <p>Understand weather phenomena, climate patterns, and how predictions are made.</p>
+        <a href="edu.html"><button class="explore-btn" onclick="exploreMore('educationInfo')">Explore More</button></a>
+        <!-- <p id="educationInfo" class="hidden">
+            Learn about various weather phenomena, how forecasts are made, and the science behind climate patterns. This helps users make well-informed decisions based on weather insights.
+        </p> -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Weather Prediction Project. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
